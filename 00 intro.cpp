@@ -1,5 +1,5 @@
 used for 2 types of operations:
-1. PREFIX operations (sum, poroduct, xor, or, etc)
+1. PREFIX operations (sum, poroduct, xor, or, etc)  -> from 0th to ith index
 2. update a value
 
 
