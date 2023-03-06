@@ -13,7 +13,7 @@ space complexity: O(N)
 
 its almost similar to segment tree, but:
 1. here the tree (represented as an array) node can have more than 2 children
-2. its FASTER than seg tree
+2. construction is SLOWER, but its FASTER than seg tree in range/update operations 
 
 
 
