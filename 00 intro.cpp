@@ -6,7 +6,8 @@ used for 2 types of operations:
 represented in form of an array
 
 
-time complexity: O(N* logN)  .... operations take logN time, but pre-processing takes more time
+time complexity: O(N* logN)  .... for construction
+               : O(log N) .... for prefix operation OR update operation
 space complexity: O(N)
 
 
