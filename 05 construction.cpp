@@ -1,5 +1,7 @@
 //time complexity = O(N * logN) => because log(N) for update, which is called N times
 
+//thus construction time is more than seg tree (it was O(N) there)
+
 
 void updateBIT(int BITree[], int n, int index, int val)   //discussed earlier
 { 
