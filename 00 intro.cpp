@@ -21,4 +21,4 @@ example we want sum in range->
 sum(l,r) = sum(0,r) - sum(0,l-1)
 seg tree    fenwick    fenwick
 
-so same example cna be done by both types of trees
+so same example can be done by both types of trees
