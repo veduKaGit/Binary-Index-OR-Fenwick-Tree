@@ -10,7 +10,7 @@ time complexity: O(N* logN)  .... operations take logN time, but pre-processing 
 space complexity: O(N)
 
 
-its almost similar like segment tree, but:
+its almost similar to segment tree, but:
 1. here the tree (represented as an array) node can have more than 2 children
 2. its FASTER than seg tree
 
