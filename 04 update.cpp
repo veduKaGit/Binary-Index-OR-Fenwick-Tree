@@ -1,6 +1,6 @@
 // in this file, we are considering that the Binary Index Tree array is ALREADY constructed
 // we just want to implement the update function
-// update(i) updates the original array at index i, and also updates the fenwick tree
+// update(i) updates the fenwick tree
 
 // time complexity: O(log N)
 
