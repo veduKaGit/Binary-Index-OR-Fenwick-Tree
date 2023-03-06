@@ -10,19 +10,16 @@
 
 
 
-void updateBIT(int BITree[], int n, int index, int val) 
+void updateBIT(int BITree[], int n, int index, int val)   // here val = new_val-old_val ... val is basically the difference
 { 
     
-    index = index + 1;   //
-  
+    index = index + 1;   //VVIMP -> since fenwick tree mei 1st element is dummy node -> so main array mei index => equivalent to BITree array mei (index+1)
      
-    while (index <= n) 
+    while (index <= n)   //update => all those nodes in fenwick tree => which had 'index' within their sum of elements range [a,b]
     { 
-   
-    BITree[index] += val; 
-  
-   
-    index += index & (-index); 
+        BITree[index] += val; //update the sum in range [a,b] where a<=index<=b
+
+        index = index + (index & (-index)); // update all these indices => ALMOST same as getSum wala => BUT here theres index + (), udhar -ive tha => RAT LO!
     } 
 }
  
