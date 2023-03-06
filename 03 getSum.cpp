@@ -13,7 +13,7 @@ int getSum(int BITree[], int index)   //we want sum from [0, index] wala range
  
 	index = index + 1;   //VVIMP -> since fenwick tree mei 1st element is dummy node -> so main array mei index => equivalent to BITree array mei (index+1)
 	 
-	while (index>0)  //what we do in this while loop => add BITree[index] to sum=> then add BITree[parent(index)] to sum=> then add BITree[parent(parent(index))] to sum ... so on till we reach the dummy node => this basically gives us the sum from range [0,index] int the main array
+	while (index>0)  //what we do in this while loop => add BITree[index] to sum=> then add BITree[parent(index)] to sum=> then add BITree[parent(parent(index))] to sum ... so on till we reach the dummy node => this basically gives us the sum from range [0,index] in the main array
   	{ 		
 		sum += BITree[index]; 
 
