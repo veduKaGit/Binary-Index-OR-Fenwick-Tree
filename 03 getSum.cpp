@@ -2,6 +2,8 @@
 // we just want to implement the getSum function
 // getSum(i) returns sum of array elements of index [0,i] (like prefix sum)
 
+// time complexity: O(log N)
+
 // fenwick tree can have some other operation as well(eg prefix xor, prefix or, etc).....we are just considering an example here (of prefix sum)
 
 
