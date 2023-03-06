@@ -8,7 +8,7 @@ represented in form of an array
 
 time complexity: O(N* logN)  .... for construction
                : O(log N) .... for prefix operation OR update operation
-space complexity: O(1 + N) //precisely this value
+space complexity: Theta(1 + N) //precisely this value
 
 
 its almost similar to segment tree, but:
