@@ -1,4 +1,4 @@
-
+//time complexity = O(N * logN) => because log(N) for update, which is called N times
 
 void updateBIT(int BITree[], int n, int index, int val) 
 { 
